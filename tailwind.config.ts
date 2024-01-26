@@ -9,9 +9,16 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        'hero-pattern': "url('/./public/images/image-a.jpg')",
+      },
+      animation: {
+        'button-bounce' : 'button-bounce 1s ease-in-out infinite',
+      },
+      keyframes :{
+        'button-bounce' : {
+          '0%, 100%': {transform: 'translateY(0)'},
+          '50%': {transform: 'translateY(-5px)'},
+        },
       },
     },
   },
