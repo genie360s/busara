@@ -6,8 +6,8 @@ import Image from "next/image";
 
 export default function MainLockUp() {
     return (
-        <div className="flex lg:flex-row sm:flex-col gap-5 items-center ">
-            <div className="lg:flex-row sm:w-full sm:p-2 lg:w-1/2   mb-8 ">
+        <div className="lg:flex  lg:flex-row md:flex-row  gap-5 items-center ">
+            <div className=" sm:w-full sm:p-2 lg:w-1/2   mb-8 ">
                 <h1 className="text-7xl font-bold text-slate-800 mb-7 -leading-4"> Busara  Book CLub</h1>
                 <h2 className="text-4xl font-bold text-slate-600 mb-7"> Where curios minds meet.</h2>
                 <p className="text-slate-500 w-full text-lg leading-6">
