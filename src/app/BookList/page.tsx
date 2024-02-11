@@ -85,7 +85,7 @@ export default function BookList() {
               </div>
             </div>
             <div className="lg:w-1/3 mt-8 rounded-lg h-96 shadow-xl hover:animate-button-bounce">
-              <div className="border-2 border-r-[8px] border-b-[8px] border-slate-700 relative flex place-content-center  p-1 bg-[url('/../images/image-a.jpg')] h-96 bg-cover rounded-lg">
+              <div className="border-2 border-r-[8px] border-b-[8px] border-slate-700 relative flex place-content-center  p-1 bg-[url('/../images/pyschology_of_money.jpg')] h-96 bg-cover rounded-lg">
                 <i className="text-4xl absolute -top-[12px] right-0 bi bi-bookmarks-fill text-slate-700"></i>
                 <button className="absolute bottom-[8px]  w-[12rem] border-2 border-orange-500 border-b-[5px] border-r-[5px]  rounded-lg text-center text-lg text-white font-bold p-2 mt-3 animate-button-bounce  ">
                   September
